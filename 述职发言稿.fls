@@ -1,0 +1,18 @@
+PWD d:/code_file
+INPUT d:/usual softwar/texlive/2024/texmf.cnf
+INPUT d:/usual softwar/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT d:/usual softwar/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT d:/code_file/述职发言稿.tex
+OUTPUT 述职发言稿.log
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/base/article.cls
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT d:/usual softwar/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+INPUT ./述职发言稿.aux
+INPUT ./述职发言稿.aux
+INPUT 述职发言稿.aux
+OUTPUT 述职发言稿.aux
+INPUT 述职发言稿.aux
