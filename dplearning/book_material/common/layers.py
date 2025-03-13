@@ -41,7 +41,6 @@ class Affine:
     def __init__(self, W, b):
         self.W =W
         self.b = b
-        
         self.x = None
         self.original_x_shape = None
         # 权重和偏置参数的导数

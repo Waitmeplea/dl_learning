@@ -103,7 +103,7 @@ class DeepConvNet:
 
         # backward
         dout = 1
-        dout = self.last_layer.backward(dout)
+        dout = backward(dout)
 
         tmp_layers = self.layers.copy()
         tmp_layers.reverse()
