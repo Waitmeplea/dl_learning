@@ -8,7 +8,7 @@ from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
 root=r'D:\bigdata\dl_learning\dplearning_xiaotudui\data'
 transform = transforms.Compose([transforms.ToTensor()])
-data_set=torchvision.datasets.CIFAR10(root,train=False,transform=transform)
+data_set=torchvision.datasets.CIFAR10(root,train=False,transform=transform,download=False)
 data=DataLoader(data_set,batch_size=10,shuffle=True)
 class Net(nn.Module):
     def __init__(self):
@@ -47,9 +47,10 @@ loss=nn.CrossEntropyLoss()
 
 optm=optim.SGD(net.parameters(),lr=0.001,momentum=0.9)
 for i in data:
-    optm.zero_grad()
+
     imgs,targets=i
     result=net(imgs)
     loss_result=loss(result,targets)
+    optm.zero_grad()
     loss_result.backward()
     optm.step()
