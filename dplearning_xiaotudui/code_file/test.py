@@ -3,10 +3,9 @@
 # 数据集太大了放弃
 import torchvision
 from torchvision.models import VGG16_Weights
+import torch
 
 
 
-
-vgg_par_non=torchvision.models.vgg16()
-####
-vgg_par_non.load_state_dict(torch.load('vgg16.pth'))
+model = torch.load('vgg16.pth', weights_only=False)  # 关闭安全限制
+print(model)
