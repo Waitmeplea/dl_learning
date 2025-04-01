@@ -1,0 +1,410 @@
+Index: .idea/shelf/_2025_3_17_9_21____.xml
+===================================================================
+diff --git a/.idea/shelf/_2025_3_17_9_21____.xml b/.idea/shelf/_2025_3_17_9_21____.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2025_3_17_9_21____.xml	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
++++ /dev/null	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
+@@ -1,4 +0,0 @@
+-<changelist name="在进行更新之前于_2025_3_17_上午9_21_取消提交了更改_[更改]" date="1742174479071" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_3_17_上午9_21_取消提交了更改_[更改]/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2025/3/17 上午9:21 取消提交了更改 [更改]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]/shelved.patch b/.idea/shelf/在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]/shelved.patch	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
++++ /dev/null	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
+@@ -1,263 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485\" name=\"更改\" comment=\"dplearning\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <excluded-from-favorite>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"REMOTE\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"origin/master\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </excluded-from-favorite>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"Waitmeplea\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/Waitmeplea/dl_learning.git\",\r\n    \"accountId\": \"ceec9c03-e4d6-4790-a8d4-a8e13253edf3\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tqYE9mVMUL6eBwlpzu3rf1AHw7\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"D:/code_file\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"ChangesTree.GroupingKeys\": []\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54\" />\r\n        <option value=\"bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485\" name=\"更改\" comment=\"\" />\r\n      <created>1741080957336</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1741080957336</updated>\r\n      <workItem from=\"1741080958355\" duration=\"1038000\" />\r\n      <workItem from=\"1741082008595\" duration=\"269000\" />\r\n      <workItem from=\"1741082292403\" duration=\"174000\" />\r\n      <workItem from=\"1741180564558\" duration=\"73000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"更改\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741081531028</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741081531028</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"更改\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741082350238</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741082350238</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"dplearning\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741082446515</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741082446515</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"更改\" />\r\n    <MESSAGE value=\"dplearning\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"dplearning\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision eb02516dd9b3aad70a5fd2da394655f0b135b0a7)
+-+++ b/.idea/workspace.xml	(date 1742373619560)
+-@@ -4,12 +4,24 @@
+-     <option name="autoReloadType" value="SELECTIVE" />
+-   </component>
+-   <component name="ChangeListManager">
+--    <list default="true" id="0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485" name="更改" comment="dplearning" />
+-+    <list default="true" id="0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485" name="更改" comment="dropout实现">
+-+      <change afterPath="$PROJECT_DIR$/.idea/code_file.iml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-+    </list>
+-     <option name="SHOW_DIALOG" value="false" />
+-     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-     <option name="LAST_RESOLUTION" value="IGNORE" />
+-   </component>
+-+  <component name="FileTemplateManagerImpl">
+-+    <option name="RECENT_TEMPLATES">
+-+      <list>
+-+        <option value="Python Script" />
+-+        <option value="Jupyter Notebook" />
+-+      </list>
+-+    </option>
+-+  </component>
+-   <component name="Git.Settings">
+-     <excluded-from-favorite>
+-       <branch-storage>
+-@@ -30,19 +42,8 @@
+-       </map>
+-     </option>
+-     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-+    <option name="RESET_MODE" value="MIXED" />
+-   </component>
+--  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+--  "lastFilter": {
+--    "state": "OPEN",
+--    "assignee": "Waitmeplea"
+--  }
+--}]]></component>
+--  <component name="GithubPullRequestsUISettings"><![CDATA[{
+--  "selectedUrlAndAccountId": {
+--    "url": "https://github.com/Waitmeplea/dl_learning.git",
+--    "accountId": "ceec9c03-e4d6-4790-a8d4-a8e13253edf3"
+--  }
+--}]]></component>
+-   <component name="ProjectColorInfo">{
+-   &quot;associatedIndex&quot;: 8
+- }</component>
+-@@ -52,28 +53,34 @@
+-     <option name="hideEmptyMiddlePackages" value="true" />
+-     <option name="showLibraryContents" value="true" />
+-   </component>
+--  <component name="PropertiesComponent"><![CDATA[{
+--  "keyToString": {
+--    "RunOnceActivity.ShowReadmeOnStart": "true",
+--    "RunOnceActivity.git.unshallow": "true",
+--    "git-widget-placeholder": "master",
+--    "last_opened_file_path": "D:/code_file",
+--    "node.js.detected.package.eslint": "true",
+--    "node.js.detected.package.tslint": "true",
+--    "node.js.selected.package.eslint": "(autodetect)",
+--    "node.js.selected.package.tslint": "(autodetect)",
+--    "nodejs_package_manager_path": "npm",
+--    "vue.rearranger.settings.migration": "true"
+-+  <component name="PropertiesComponent">{
+-+  &quot;keyToString&quot;: {
+-+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+-+    &quot;last_opened_file_path&quot;: &quot;D:/code_file&quot;,
+-+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+-+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+-   },
+--  "keyToStringList": {
+--    "ChangesTree.GroupingKeys": []
+-+  &quot;keyToStringList&quot;: {
+-+    &quot;ChangesTree.GroupingKeys&quot;: []
+-   }
+--}]]></component>
+-+}</component>
+-+  <component name="RecentsManager">
+-+    <key name="MoveFile.RECENT_KEYS">
+-+      <recent name="D:\code_file\dplearning" />
+-+    </key>
+-+  </component>
+-   <component name="SharedIndexes">
+-     <attachedChunks>
+-       <set>
+--        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+--        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
+-+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+-+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+-       </set>
+-     </attachedChunks>
+-   </component>
+-@@ -88,7 +95,19 @@
+-       <workItem from="1741080958355" duration="1038000" />
+-       <workItem from="1741082008595" duration="269000" />
+-       <workItem from="1741082292403" duration="174000" />
+--      <workItem from="1741180564558" duration="73000" />
+-+      <workItem from="1741225287442" duration="4279000" />
+-+      <workItem from="1741335305404" duration="2855000" />
+-+      <workItem from="1741338324757" duration="3084000" />
+-+      <workItem from="1741571563283" duration="4959000" />
+-+      <workItem from="1741656714851" duration="1309000" />
+-+      <workItem from="1741668073367" duration="4970000" />
+-+      <workItem from="1741787820854" duration="13000" />
+-+      <workItem from="1741831167223" duration="596000" />
+-+      <workItem from="1741839503063" duration="15936000" />
+-+      <workItem from="1741955998805" duration="1161000" />
+-+      <workItem from="1742174433842" duration="3146000" />
+-+      <workItem from="1742261979752" duration="3568000" />
+-+      <workItem from="1742370575892" duration="1208000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="更改">
+-       <option name="closed" value="true" />
+-@@ -114,7 +133,79 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1741082446515</updated>
+-     </task>
+--    <option name="localTasksCounter" value="4" />
+-+    <task id="LOCAL-00004" summary="update">
+-+      <option name="closed" value="true" />
+-+      <created>1741255360917</created>
+-+      <option name="number" value="00004" />
+-+      <option name="presentableId" value="LOCAL-00004" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741255360917</updated>
+-+    </task>
+-+    <task id="LOCAL-00005" summary="update">
+-+      <option name="closed" value="true" />
+-+      <created>1741255629953</created>
+-+      <option name="number" value="00005" />
+-+      <option name="presentableId" value="LOCAL-00005" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741255629953</updated>
+-+    </task>
+-+    <task id="LOCAL-00006" summary="神经网络梯度">
+-+      <option name="closed" value="true" />
+-+      <created>1741339073878</created>
+-+      <option name="number" value="00006" />
+-+      <option name="presentableId" value="LOCAL-00006" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741339073878</updated>
+-+    </task>
+-+    <task id="LOCAL-00007" summary="神经网络梯度">
+-+      <option name="closed" value="true" />
+-+      <created>1741341301877</created>
+-+      <option name="number" value="00007" />
+-+      <option name="presentableId" value="LOCAL-00007" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741341301877</updated>
+-+    </task>
+-+    <task id="LOCAL-00008" summary="神经网络梯度">
+-+      <option name="closed" value="true" />
+-+      <created>1741601017122</created>
+-+      <option name="number" value="00008" />
+-+      <option name="presentableId" value="LOCAL-00008" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741601017122</updated>
+-+    </task>
+-+    <task id="LOCAL-00009" summary="误差反向传播">
+-+      <option name="closed" value="true" />
+-+      <created>1741699272690</created>
+-+      <option name="number" value="00009" />
+-+      <option name="presentableId" value="LOCAL-00009" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741699272690</updated>
+-+    </task>
+-+    <task id="LOCAL-00010" summary="6神经网络迭代方式">
+-+      <option name="closed" value="true" />
+-+      <created>1741860347819</created>
+-+      <option name="number" value="00010" />
+-+      <option name="presentableId" value="LOCAL-00010" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741860347819</updated>
+-+    </task>
+-+    <task id="LOCAL-00011" summary="6神经网络迭代方式">
+-+      <option name="closed" value="true" />
+-+      <created>1741956010094</created>
+-+      <option name="number" value="00011" />
+-+      <option name="presentableId" value="LOCAL-00011" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1741956010094</updated>
+-+    </task>
+-+    <task id="LOCAL-00012" summary="dropout实现">
+-+      <option name="closed" value="true" />
+-+      <created>1742291619048</created>
+-+      <option name="number" value="00012" />
+-+      <option name="presentableId" value="LOCAL-00012" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1742291619048</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="13" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -146,6 +237,12 @@
+-   <component name="VcsManagerConfiguration">
+-     <MESSAGE value="更改" />
+-     <MESSAGE value="dplearning" />
+--    <option name="LAST_COMMIT_MESSAGE" value="dplearning" />
+-+    <MESSAGE value="update" />
+-+    <MESSAGE value="5误差反向传播" />
+-+    <MESSAGE value="5误差反向传播" />
+-+    <MESSAGE value="误差反向传播" />
+-+    <MESSAGE value="6神经网络迭代方式" />
+-+    <MESSAGE value="dropout实现" />
+-+    <option name="LAST_COMMIT_MESSAGE" value="dropout实现" />
+-   </component>
+- </project>
+-\ No newline at end of file
+-Index: .idea/code_file.iml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/code_file.iml b/.idea/code_file.iml
+-new file mode 100644
+---- /dev/null	(date 1742261387908)
+-+++ b/.idea/code_file.iml	(date 1742261387908)
+-@@ -0,0 +1,7 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<module version="4">
+-+  <component name="PyDocumentationSettings">
+-+    <option name="format" value="PLAIN" />
+-+    <option name="myDocStringFormat" value="Plain" />
+-+  </component>
+-+</module>
+-\ No newline at end of file
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.11\" project-jdk-type=\"Python SDK\" />\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+---- a/.idea/misc.xml	(revision eb02516dd9b3aad70a5fd2da394655f0b135b0a7)
+-+++ b/.idea/misc.xml	(date 1742261388074)
+-@@ -1,4 +1,7 @@
+- <?xml version="1.0" encoding="UTF-8"?>
+- <project version="4">
+-+  <component name="Black">
+-+    <option name="sdkName" value="Python 3.11" />
+-+  </component>
+-   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
+- </project>
+-\ No newline at end of file
+Index: .idea/shelf/_2025_3_18_9_29____.xml
+===================================================================
+diff --git a/.idea/shelf/_2025_3_18_9_29____.xml b/.idea/shelf/_2025_3_18_9_29____.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2025_3_18_9_29____.xml	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
++++ /dev/null	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
+@@ -1,4 +0,0 @@
+-<changelist name="在进行更新之前于_2025_3_18_上午9_29_取消提交了更改_[更改]" date="1742261388330" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_3_18_上午9_29_取消提交了更改_[更改]/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2025/3/18 上午9:29 取消提交了更改 [更改]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/_2025_3_20_9_35____.xml
+===================================================================
+diff --git a/.idea/shelf/_2025_3_20_9_35____.xml b/.idea/shelf/_2025_3_20_9_35____.xml
+deleted file mode 100644
+--- a/.idea/shelf/_2025_3_20_9_35____.xml	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
++++ /dev/null	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
+@@ -1,4 +0,0 @@
+-<changelist name="在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]" date="1742434507866" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]/shelved.patch" />
+-  <option name="DESCRIPTION" value="在进行更新之前于 2025/3/20 上午9:35 取消提交了更改 [更改]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485\" name=\"更改\" comment=\"dplearning\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <excluded-from-favorite>\r\n      <branch-storage>\r\n        <map>\r\n          <entry type=\"REMOTE\">\r\n            <value>\r\n              <list>\r\n                <branch-info repo=\"$PROJECT_DIR$\" source=\"origin/master\" />\r\n              </list>\r\n            </value>\r\n          </entry>\r\n        </map>\r\n      </branch-storage>\r\n    </excluded-from-favorite>\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\"><![CDATA[{\r\n  \"lastFilter\": {\r\n    \"state\": \"OPEN\",\r\n    \"assignee\": \"Waitmeplea\"\r\n  }\r\n}]]></component>\r\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\r\n  \"selectedUrlAndAccountId\": {\r\n    \"url\": \"https://github.com/Waitmeplea/dl_learning.git\",\r\n    \"accountId\": \"ceec9c03-e4d6-4790-a8d4-a8e13253edf3\"\r\n  }\r\n}]]></component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 8\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2tqYE9mVMUL6eBwlpzu3rf1AHw7\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"D:/code_file\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"ChangesTree.GroupingKeys\": []\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54\" />\r\n        <option value=\"bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"应用程序级\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"默认任务\">\r\n      <changelist id=\"0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485\" name=\"更改\" comment=\"\" />\r\n      <created>1741080957336</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1741080957336</updated>\r\n      <workItem from=\"1741080958355\" duration=\"1038000\" />\r\n      <workItem from=\"1741082008595\" duration=\"269000\" />\r\n      <workItem from=\"1741082292403\" duration=\"174000\" />\r\n      <workItem from=\"1741180564558\" duration=\"73000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"更改\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741081531028</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741081531028</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"更改\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741082350238</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741082350238</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"dplearning\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1741082446515</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1741082446515</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"更改\" />\r\n    <MESSAGE value=\"dplearning\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"dplearning\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
++++ b/.idea/workspace.xml	(date 1743377475676)
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485" name="更改" comment="dplearning" />
++    <list default="true" id="0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485" name="更改" comment="nn.module" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -31,18 +31,18 @@
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+-  "lastFilter": {
+-    "state": "OPEN",
+-    "assignee": "Waitmeplea"
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Waitmeplea&quot;
+   }
+-}]]></component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/Waitmeplea/dl_learning.git",
+-    "accountId": "ceec9c03-e4d6-4790-a8d4-a8e13253edf3"
++}</component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/Waitmeplea/dl_learning.git&quot;,
++    &quot;accountId&quot;: &quot;ceec9c03-e4d6-4790-a8d4-a8e13253edf3&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 8
+ }</component>
+@@ -52,23 +52,23 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "git-widget-placeholder": "master",
+-    "last_opened_file_path": "D:/code_file",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)",
+-    "nodejs_package_manager_path": "npm",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;last_opened_file_path&quot;: &quot;D:/code_file&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+-  "keyToStringList": {
+-    "ChangesTree.GroupingKeys": []
++  &quot;keyToStringList&quot;: {
++    &quot;ChangesTree.GroupingKeys&quot;: []
+   }
+-}]]></component>
++}</component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" project-jdk-name=\"Python 3.11\" project-jdk-type=\"Python SDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 3c19e5beb6b95e0dd5c9340f398ad9d22dd20911)
++++ b/.idea/misc.xml	(date 1743420574923)
+@@ -1,4 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.11" project-jdk-type="Python SDK" />
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (dplearning)" project-jdk-type="Python SDK" />
+ </project>
+\ No newline at end of file
