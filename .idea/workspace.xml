@@ -4,20 +4,182 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485" name="更改" comment="dplearning">
-      <change afterPath="$PROJECT_DIR$/.idea/code_file.iml" afterDir="false" />
+    <list default="true" id="0b5e2ee8-7e60-4366-9adb-a2f4c0f8f485" name="更改" comment="小土堆课程 完结">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dp_yushu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deeplearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2025_3_17_9_21____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2025_3_18_9_29____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2025_3_20_9_35____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2025_3_20_上午9_35_取消提交了更改_[更改]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dplearning_xiaotudui/code_file/dataloader.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dplearning_xiaotudui/code_file/dataloader.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/CNN实现.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch02" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch03" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch04" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch05" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch06" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch07" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._ch08" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._common" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/._dataset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch01/._hungry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch01/._img_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch01/._man.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch01/._simple_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch01/._sin_cos_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch01/._sin_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch02/._and_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch02/._nand_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch02/._or_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch02/._xor_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._mnist_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._neuralnet_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._neuralnet_mnist_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._sample_weight.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._sig_step_compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._sigmoid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch03/._step_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch04/._gradient_1d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch04/._gradient_2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch04/._gradient_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch04/._gradient_simplenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch04/._train_neuralnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch04/._two_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch05/._buy_apple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch05/._buy_apple_orange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch05/._gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch05/._layer_naive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch05/._train_neuralnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch05/._two_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._batch_norm_gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._batch_norm_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._hyperparameter_optimization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._optimizer_compare_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._optimizer_compare_naive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._overfit_dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._overfit_weight_decay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._weight_init_activation_histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch06/._weight_init_compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch07/._apply_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch07/._gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch07/._params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch07/._simple_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch07/._train_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch07/._visualize_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch08/._awesome_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch08/._deep_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch08/._deep_convnet_params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch08/._half_float_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch08/._misclassified_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/ch08/._train_deepnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/.___init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._gradient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._multi_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._multi_layer_net_extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/common/._util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/dataset/.___init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/dataset/._lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/dataset/._lena_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/__MACOSX/dataset/._mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch01/hungry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch01/img_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch01/man.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch01/simple_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch01/sin_cos_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch01/sin_graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch02/and_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch02/nand_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch02/or_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch02/xor_gate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/mnist_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/neuralnet_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/neuralnet_mnist_batch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/relu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/sample_weight.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/sig_step_compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/sigmoid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch03/step_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch04/gradient_1d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch04/gradient_2d.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch04/gradient_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch04/gradient_simplenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch04/train_neuralnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch04/two_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch05/buy_apple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch05/buy_apple_orange.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch05/gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch05/layer_naive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch05/train_neuralnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch05/two_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/batch_norm_gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/batch_norm_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/hyperparameter_optimization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/optimizer_compare_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/optimizer_compare_naive.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/overfit_dropout.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/overfit_weight_decay.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/weight_init_activation_histogram.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch06/weight_init_compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch07/apply_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch07/gradient_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch07/params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch07/simple_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch07/train_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch07/visualize_filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch08/awesome_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch08/deep_convnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch08/deep_convnet_params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch08/half_float_network.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch08/misclassified_mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/ch08/train_deepnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/gradient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/layers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/multi_layer_net.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/multi_layer_net_extend.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/common/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/lena.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/lena_gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/mnist.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/mnist.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/t10k-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/t10k-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/train-images-idx3-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/book_material/dataset/train-labels-idx1-ubyte.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/cnn组件.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/common_learning/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/common_learning/functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/common_learning/gradient.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/dpbook_5章.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/dpbook_learning1-4章.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/dropout实现.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/参数权重初始值.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/多层神经网络实现.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning/神经网络迭代方式.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dplearning_xiaotudui/code_file/8_完整模型的训练套路.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/dplearning_xiaotudui/code_file/8_完整模型的训练套路.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -73,18 +235,23 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
     &quot;ChangesTree.GroupingKeys&quot;: []
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\bigdata\dl_learning\dplearning_first_part" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
-        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-PY-243.24978.54" />
+        <option value="bundled-python-sdk-91e3b7efe1d4-466328ff949b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.24978.54" />
       </set>
     </attachedChunks>
   </component>
@@ -102,6 +269,11 @@
       <workItem from="1741180564558" duration="73000" />
       <workItem from="1742969493466" duration="4917000" />
       <workItem from="1743140103098" duration="595000" />
+      <workItem from="1743507676756" duration="345000" />
+      <workItem from="1743508030507" duration="482000" />
+      <workItem from="1743508792680" duration="888000" />
+      <workItem from="1743510022776" duration="3000" />
+      <workItem from="1743510043950" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="更改">
       <option name="closed" value="true" />
@@ -127,7 +299,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741082446515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="模型保存与加载">
+      <option name="closed" value="true" />
+      <created>1743427753277</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743427753277</updated>
+    </task>
+    <task id="LOCAL-00005" summary="小土堆课程 完结">
+      <option name="closed" value="true" />
+      <created>1743509816416</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743509816416</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +347,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更改" />
     <MESSAGE value="dplearning" />
-    <option name="LAST_COMMIT_MESSAGE" value="dplearning" />
+    <MESSAGE value="模型保存与加载" />
+    <MESSAGE value="小土堆课程 完结" />
+    <option name="LAST_COMMIT_MESSAGE" value="小土堆课程 完结" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>file://$PROJECT_DIR$/dplearning_xiaotudui/code_file/6_current_model_learing_and_modify.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/dp_yushu$test.coverage" NAME="test 覆盖结果" MODIFIED="1743422386498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dplearning_xiaotudui/code_file" />
   </component>
 </project>
