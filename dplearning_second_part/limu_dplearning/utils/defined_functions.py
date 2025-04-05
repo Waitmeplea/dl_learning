@@ -30,6 +30,7 @@ class Timer(object):
         return np.array(self.times).cumsum().tolist()
 
 
+
 if __name__ == '__main__':
     timer = Timer()
     time.sleep(3)
