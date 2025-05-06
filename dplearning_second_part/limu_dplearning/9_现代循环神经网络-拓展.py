@@ -28,8 +28,22 @@ class RNN(nn.Module):
         return result, state
 
     # 初始化隐状态
-    def begin_state(self, batch_size, device):
-        return torch.zeros((1, batch_size, hidden_size), device=device), torch.zeros((1, batch_size, hidden_size),
+    def begin_state(self, batch_size,hidden_size, device):
+        return torch.zeros((self.num_layers, batch_size, hidden_size), device=device), torch.zeros((self.num_layers, batch_size, hidden_size),
                                                                                      device=device)
 
-net=RNN(vocab_size=2, num_hiddens=2, num_layers=2, device='cpu')
+vocab_size = 28
+num_hiddens = 128
+num_layers = 2
+device='cpu'
+batch_size,num_steps=32,35
+data_iter,vocab=load_data_time_machine(batch_size,num_steps,False)
+net=RNN(vocab_size, num_hiddens, num_layers, device)
+state=net.begin_state(batch_size,num_hiddens,device)
+for i,j in data_iter:
+    print(net(i,state))
+    break
+
+
+### 双向循环神经网络 不可以做预测推理 因为反向的问题做推理既需要之前的信息也需要之后的信息 但是实际上是看不到未来
+### 所以一般来说双向神经网络可以对句子做特征提取 填空而不是预测未来
