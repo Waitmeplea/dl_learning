@@ -200,7 +200,7 @@ from torch import nn
 
 ##读取文章
 def read_time_machine():
-    with open(r'D:\\bigdata\dl_learning\dplearning_second_part\data\time_machine.txt', 'r') as f:
+    with open(r'..\data\time_machine.txt', 'r') as f:
         content = f.readlines()
     return [ re.sub('[^A-Za-z]', ' ', i.replace('\n','')).strip().lower() for i in content ]
 
