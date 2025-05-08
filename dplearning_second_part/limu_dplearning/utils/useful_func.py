@@ -258,6 +258,10 @@ class Vocal():
             return self.token_to_idx.get(tokens, 0)
         return [self.__getitem__(i) for i in tokens]
 
+    def to_tokens(self, indices):
+        if hasattr(indices, '__len__') and len(indices) > 1:
+            return [self.idx_to_token[int(index)] for index in indices]
+        return self.idx_to_token[indices]
     @property
     def unk(self):
         return 0
