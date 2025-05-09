@@ -456,6 +456,22 @@ def train_ch8(net, train_iter, vocab, lr, num_epochs, device,
 
 ###########
 
+def sequence_mask(X,valid_len,value=0):
+    """在序列中屏蔽不相关的项"""
+    if X.dim() != 2 or valid_len.dim() != 1:
+        raise ValueError('Expect 2d tensor')
+
+    # 首先x是二维的 最内层维度是句子长度 注意：是训练集所以才知道句子真实长度
+    # 拿出总的长度 得到长度
+
+    maxlen = X.shape[1]
+    # 然后用总长度生成一个1维的向量 使用函数扩展成2维以便与valid_len进行广播
+    mask=torch.unsqueeze(torch.arange(0, maxlen, dtype=torch.long),dim=0)
+    # mask在0维度扩充 valid在1维度扩充 因为每一个valid对应的是每一个x valid的数字其实是x的第二维向量
+    mask=(mask<torch.unsqueeze(valid_len,dim=1)) # 这里小于号就够了 因为<eos>所在位置的索引其实是valid_len-1
+    X[~mask]=value
+    return X
+
 if __name__ == '__main__':
 
     timer = Timer()
