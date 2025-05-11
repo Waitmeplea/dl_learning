@@ -472,6 +472,51 @@ def sequence_mask(X,valid_len,value=0):
     X[~mask]=value
     return X
 
+def masked_softmax(X,valid_len):
+    """通过在最后一个轴上掩蔽元素来执行softmax操作"""
+    # X为3D batch_size*x*y valid_len 最后一个轴的有效长度
+    # 如果valid_len是1d 则len必须等于X最外围的长度
+    # 如果valid_len是2d 则按批次计算有效长度 reshape后必须等于 x的0层 *1层长度
+    if valid_len is None:
+        return torch.softmax(X, dim=-1)
+    else:
+        shape=X.shape
+        X=X.reshape(-1,shape[-1])
+        valid_len=valid_len.reshape(-1)
+        X=sequence_mask(X,valid_len,value=int(-1e6))
+        return torch.softmax(X, dim=-1)
+
+
+
+class Encoder(nn.Module):
+    def __init__(self,**kwargs):
+        super(Encoder, self).__init__(**kwargs)
+
+    def forward(self,X,*args):
+        raise NotImplementedError
+
+class Decoder(nn.Module):
+    def __init__(self,**kwargs):
+        super(Decoder, self).__init__(**kwargs)
+    def init_state(self,enc_out,*args):
+        raise NotImplementedError
+    def forward(self,X,state):
+        raise NotImplementedError
+
+class EncoderDecoder(nn.Module):
+    def __init__(self,encoder,decoder,**kwargs):
+        super(EncoderDecoder, self).__init__(**kwargs)
+        self.encoder = encoder
+        self.decoder = decoder
+
+    def forward(self, enc_X,dec_X,*args):
+        enc_out=self.encoder(enc_X)
+        init_state = self.decoder.init_state(enc_out)
+        return self.decoder(dec_X,init_state)
+
+# 加性注意力
+
+
 if __name__ == '__main__':
 
     timer = Timer()
