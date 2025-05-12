@@ -262,6 +262,7 @@ class Vocal():
         if hasattr(indices, '__len__') and len(indices) > 1:
             return [self.idx_to_token[int(index)] for index in indices]
         return self.idx_to_token[indices]
+
     @property
     def unk(self):
         return 0
@@ -456,7 +457,7 @@ def train_ch8(net, train_iter, vocab, lr, num_epochs, device,
 
 ###########
 
-def sequence_mask(X,valid_len,value=0):
+def sequence_mask(X, valid_len, value=0):
     """在序列中屏蔽不相关的项"""
     if X.dim() != 2 or valid_len.dim() != 1:
         raise ValueError('Expect 2d tensor')
@@ -466,13 +467,14 @@ def sequence_mask(X,valid_len,value=0):
 
     maxlen = X.shape[1]
     # 然后用总长度生成一个1维的向量 使用函数扩展成2维以便与valid_len进行广播
-    mask=torch.unsqueeze(torch.arange(0, maxlen, dtype=torch.long),dim=0)
+    mask = torch.unsqueeze(torch.arange(0, maxlen, dtype=torch.long), dim=0)
     # mask在0维度扩充 valid在1维度扩充 因为每一个valid对应的是每一个x valid的数字其实是x的第二维向量
-    mask=(mask<torch.unsqueeze(valid_len,dim=1)) # 这里小于号就够了 因为<eos>所在位置的索引其实是valid_len-1
-    X[~mask]=value
+    mask = (mask < torch.unsqueeze(valid_len, dim=1))  # 这里小于号就够了 因为<eos>所在位置的索引其实是valid_len-1
+    X[~mask] = value
     return X
 
-def masked_softmax(X,valid_len):
+
+def masked_softmax(X, valid_len):
     """通过在最后一个轴上掩蔽元素来执行softmax操作"""
     # X为3D batch_size*x*y valid_len 最后一个轴的有效长度
     # 如果valid_len是1d 则len必须等于X最外围的长度
@@ -480,41 +482,66 @@ def masked_softmax(X,valid_len):
     if valid_len is None:
         return torch.softmax(X, dim=-1)
     else:
-        shape=X.shape
-        X=X.reshape(-1,shape[-1])
-        valid_len=valid_len.reshape(-1)
-        X=sequence_mask(X,valid_len,value=int(-1e6))
+        shape = X.shape
+        X = X.reshape(-1, shape[-1])
+        valid_len = valid_len.reshape(-1)
+        X = sequence_mask(X, valid_len, value=int(-1e6))
         return torch.softmax(X, dim=-1)
 
 
-
 class Encoder(nn.Module):
-    def __init__(self,**kwargs):
+    def __init__(self, **kwargs):
         super(Encoder, self).__init__(**kwargs)
 
-    def forward(self,X,*args):
+    def forward(self, X, *args):
         raise NotImplementedError
+
 
 class Decoder(nn.Module):
-    def __init__(self,**kwargs):
+    def __init__(self, **kwargs):
         super(Decoder, self).__init__(**kwargs)
-    def init_state(self,enc_out,*args):
-        raise NotImplementedError
-    def forward(self,X,state):
+
+    def init_state(self, enc_out, *args):
         raise NotImplementedError
 
+    def forward(self, X, state):
+        raise NotImplementedError
+
+
 class EncoderDecoder(nn.Module):
-    def __init__(self,encoder,decoder,**kwargs):
+    def __init__(self, encoder, decoder, **kwargs):
         super(EncoderDecoder, self).__init__(**kwargs)
         self.encoder = encoder
         self.decoder = decoder
 
-    def forward(self, enc_X,dec_X,*args):
-        enc_out=self.encoder(enc_X)
+    def forward(self, enc_X, dec_X, *args):
+        enc_out = self.encoder(enc_X)
         init_state = self.decoder.init_state(enc_out)
-        return self.decoder(dec_X,init_state)
+        return self.decoder(dec_X, init_state)
+
 
 # 加性注意力
+class AdditiveAttention(nn.Module):
+    def __init__(self, key_size, query_size, num_hiddens, dropout, **kwargs):
+        super(AdditiveAttention, self).__init__(**kwargs)
+        self.W_q = nn.Linear(query_size, num_hiddens, bias=False)
+        self.W_k = nn.Linear(key_size, num_hiddens, bias=False)
+        # 为什么输出是1：一个q对应一个k 最终结果是一个常量代表权重
+        self.W_v = nn.Linear(num_hiddens, 1, bias=False)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, queries, keys, values, valid_lens, *args):
+        queries = self.W_q(queries)
+        keys = self.W_k(keys)
+        feature = queries.unsqueeze(2) + keys.unsqueeze(1)
+        feature = torch.tanh(feature)
+        # 到这是加性注意力得分
+        scores = self.W_v(feature).squeeze(-1)
+        # 然后通过softmax 计算每个key_value的权重，遮蔽没有意义的位置
+        self.attention_weights = masked_softmax(scores, valid_lens)
+        # 用权重加权所有value，得到每个query的注意力输出作为最终结果。 不需要再softmax了
+        # 注意力输出
+        return torch.bmm(self.dropout(self.attention_weights), values)
 
 
 if __name__ == '__main__':
