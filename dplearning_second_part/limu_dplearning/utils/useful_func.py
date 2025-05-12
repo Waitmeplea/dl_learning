@@ -501,7 +501,7 @@ class Decoder(nn.Module):
     def __init__(self, **kwargs):
         super(Decoder, self).__init__(**kwargs)
 
-    def init_state(self, enc_out, *args):
+    def init_state(self, enc_out, *args,**kwargs):
         raise NotImplementedError
 
     def forward(self, X, state):
