@@ -501,7 +501,7 @@ class Decoder(nn.Module):
     def __init__(self, **kwargs):
         super(Decoder, self).__init__(**kwargs)
 
-    def init_state(self, enc_out, *args,**kwargs):
+    def init_state(self, enc_out, *args, **kwargs):
         raise NotImplementedError
 
     def forward(self, X, state):
@@ -518,6 +518,19 @@ class EncoderDecoder(nn.Module):
         enc_out = self.encoder(enc_X)
         init_state = self.decoder.init_state(enc_out)
         return self.decoder(dec_X, init_state)
+
+
+class Seq2SeqEncoder(Encoder):
+    def __init__(self, vocab_size, embed_size, num_hidden, layers_num, dropout, **kwargs):
+        super(Seq2SeqEncoder, self).__init__(**kwargs)
+        self.embedding = nn.Embedding(vocab_size, embed_size)
+        self.gru = nn.GRU(embed_size, num_hidden, layers_num, dropout=dropout)
+
+    def forward(self, X, *args):
+        embed_x = self.embedding(X)
+        embed_x = embed_x.permute(1, 0, 2)
+        output, hidden = self.gru(embed_x)
+        return output, hidden
 
 
 # 加性注意力
@@ -541,6 +554,7 @@ class AdditiveAttention(nn.Module):
         self.attention_weights = masked_softmax(scores, valid_lens)
         # 用权重加权所有value，得到每个query的注意力输出作为最终结果。 不需要再softmax了
         # 注意力输出
+        # batch_size,key_size,value_size
         return torch.bmm(self.dropout(self.attention_weights), values)
 
 
