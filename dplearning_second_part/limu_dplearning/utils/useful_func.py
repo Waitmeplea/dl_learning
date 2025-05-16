@@ -558,6 +558,57 @@ class AdditiveAttention(nn.Module):
         return torch.bmm(self.dropout(self.attention_weights), values)
 
 
+def read_data_nmt():
+    with open(r'../data/fra-eng/fra.txt', 'r', encoding='utf-8') as f:
+        result = f.read()
+    return result
+
+
+
+#### 英法语 序列预处理
+# @save
+def preprocess_nmt(text):
+    """预处理“英语－法语”数据集"""
+
+    def no_space(char, prev_char):
+        return char in set(',.!?') and prev_char != ' '
+
+    # 使用空格替换不间断空格
+    # 使用小写字母替换大写字母
+    text = text.replace('\u202f', ' ').replace('\xa0', ' ').lower()
+    # 在单词和标点符号之间插入空格
+    out = [' ' + char if i > 0 and no_space(char, text[i - 1]) else char for i, char in enumerate(text)]
+    return ''.join(out)
+
+
+def tokenize_nmt(text, num_examples=None):
+    text = preprocess_nmt(read_data_nmt())
+    src, tgt = [], []
+    for i, lines in enumerate(text.split('\n')):
+        if num_examples and i >= num_examples:
+            break
+        lines = lines.split('\t')
+        if len(lines) == 2:
+            src.append(lines[0].split(' '))
+            tgt.append(lines[1].split(' '))
+    return src, tgt
+
+
+def truncate_pad(content, lens, pad_content):
+    content = content[:lens]
+    return content + [pad_content] * (lens - len(content))
+
+
+## 将文本数据作为批量数据，并且加入<eos>至末尾 同时统计有效字符 包含eos
+# 传入的二维list
+def build_array_nmt(lines, vocab, num_steps):
+    lines = [i + ['<eos>'] for i in lines]
+    valid_lens = [len(i) for i in lines]
+    lines = [truncate_pad(i, num_steps, '<pad>') for i in lines]
+    lines = [vocab[i] for i in lines]
+    return torch.tensor(lines), torch.tensor(valid_lens)
+
+
 if __name__ == '__main__':
 
     timer = Timer()
