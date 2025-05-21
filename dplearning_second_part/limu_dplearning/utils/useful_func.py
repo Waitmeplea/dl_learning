@@ -486,8 +486,30 @@ def masked_softmax(X, valid_len):
         X = X.reshape(-1, shape[-1])
         valid_len = valid_len.reshape(-1)
         X = sequence_mask(X, valid_len, value=int(-1e6))
-        return torch.softmax(X, dim=-1)
+        return torch.softmax(X.reshape(shape), dim=-1)
 
+# 加性注意力
+class AdditiveAttention(nn.Module):
+    """加性注意力"""
+    def __init__(self,key_size,query_size,num_hiddens,dropout,**kwargs):
+        super(AdditiveAttention,self).__init__(**kwargs)
+        self.W_k = nn.Linear(key_size,num_hiddens,bias=False)
+        self.W_q = nn.Linear(query_size,num_hiddens,bias=False)
+        self.W_v = nn.Linear(num_hiddens,1,bias=False)
+        self.dropout = nn.Dropout(dropout)
+    # queries 维度应该是 batch_size * 要查询的数量 * q_size向量长度
+    # keys 维度是 batch_size * keys的数量（key-value)键值对 * key向量长度
+    # values与key相等 value_size可以不一样
+    def forward(self, queries, keys, values, valid_lens): ## valid_len从输入来的 屏蔽掉填充部分
+        queries,keys=self.W_q(queries),self.W_k(keys)
+        queries=queries.unsqueeze(2)
+        keys=keys.unsqueeze(1)
+        features = queries + keys
+        features = torch.tanh(features)
+        scores = self.W_v(features).squeeze(-1)
+        self.attention_weights = masked_softmax(scores, valid_lens)
+        attention_temp=self.dropout(self.attention_weights)
+        return torch.bmm(attention_temp, values)
 
 class Encoder(nn.Module):
     def __init__(self, **kwargs):
@@ -533,29 +555,7 @@ class Seq2SeqEncoder(Encoder):
         return output, hidden
 
 
-# 加性注意力
-class AdditiveAttention(nn.Module):
-    def __init__(self, key_size, query_size, num_hiddens, dropout, **kwargs):
-        super(AdditiveAttention, self).__init__(**kwargs)
-        self.W_q = nn.Linear(query_size, num_hiddens, bias=False)
-        self.W_k = nn.Linear(key_size, num_hiddens, bias=False)
-        # 为什么输出是1：一个q对应一个k 最终结果是一个常量代表权重
-        self.W_v = nn.Linear(num_hiddens, 1, bias=False)
-        self.dropout = nn.Dropout(dropout)
 
-    def forward(self, queries, keys, values, valid_lens, *args):
-        queries = self.W_q(queries)
-        keys = self.W_k(keys)
-        feature = queries.unsqueeze(2) + keys.unsqueeze(1)
-        feature = torch.tanh(feature)
-        # 到这是加性注意力得分
-        scores = self.W_v(feature).squeeze(-1)
-        # 然后通过softmax 计算每个key_value的权重，遮蔽没有意义的位置
-        self.attention_weights = masked_softmax(scores, valid_lens)
-        # 用权重加权所有value，得到每个query的注意力输出作为最终结果。 不需要再softmax了
-        # 注意力输出
-        # batch_size,key_size,value_size
-        return torch.bmm(self.dropout(self.attention_weights), values)
 
 
 def read_data_nmt():
