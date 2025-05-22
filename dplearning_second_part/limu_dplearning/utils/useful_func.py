@@ -474,19 +474,23 @@ def sequence_mask(X, valid_len, value=0):
     return X
 
 
-def masked_softmax(X, valid_len):
+def masked_softmax(X, valid_lens):
     """通过在最后一个轴上掩蔽元素来执行softmax操作"""
     # X为3D batch_size*x*y valid_len 最后一个轴的有效长度
     # 如果valid_len是1d 则len必须等于X最外围的长度
     # 如果valid_len是2d 则按批次计算有效长度 reshape后必须等于 x的0层 *1层长度
-    if valid_len is None:
+    if valid_lens is None:
         return torch.softmax(X, dim=-1)
     else:
         shape = X.shape
-        X = X.reshape(-1, shape[-1])
-        valid_len = valid_len.reshape(-1)
-        X = sequence_mask(X, valid_len, value=int(-1e6))
-        return torch.softmax(X.reshape(shape), dim=-1)
+        if valid_lens.dim() == 1:
+            valid_lens = torch.repeat_interleave(valid_lens, shape[1])
+        else:
+            valid_lens = valid_lens.reshape(-1)
+        # 最后一轴上被掩蔽的元素使用一个非常大的负值替换，从而其softmax输出为0
+        X = sequence_mask(X.reshape(-1, shape[-1]), valid_lens,
+                              value=-1e6)
+        return nn.functional.softmax(X.reshape(shape), dim=-1)
 
 # 加性注意力
 class AdditiveAttention(nn.Module):
