@@ -207,13 +207,15 @@ def read_time_machine():
 
 
 ## 定义一个拆分词元的函数 结果是词元组成的list
-def tokenize(content, token='word'):
+# 修改过了
+def tokenize(lines, token='word'):  #@save
+    """将文本行拆分为单词或字符词元"""
     if token == 'word':
-        token_list = [token.lower() for i in content for token in i.split()]
+        return [line.split() for line in lines]
+    elif token == 'char':
+        return [list(line) for line in lines]
     else:
-        token_list = [token.lower() for i in content for token in i]
-    return token_list
-
+        print('错误：未知词元类型：' + token)
 
 ##定义一个统计频率的函数 可以处理1d2d
 def count_corpus(token_list):
