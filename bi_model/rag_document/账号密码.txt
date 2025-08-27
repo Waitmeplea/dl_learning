@@ -1,0 +1,85 @@
+
+------------------===================工作相关
+神策 mengyuan.hu@bl.com
+密码 1qaz!Qaz
+
+
+百联电脑ip地址
+10.199.25.64
+
+OSP
+BL_HUMENGY
+5215211g!
+
+------------------百联数据库
+vertica
+CREATE USER humengyuan IDENTIFIED BY 'Fr%5tqap';
+
+spark 
+bigdata_alps 组账号
+用户: bigdata_alps
+密码: BaP$2s^4
+
+presto
+host = '10.201.48.50'
+port = 8081
+username = 'select'
+catalog = 'hive'
+
+-----jira
+humy
+5215211g
+
+google/Kaggle
+humengyuan997@gmail.com
+5215211g！
+
+
+pycharm
+humengyuan997@gmail.com
+5215211g！
+
+Linux系统密码
+5215211g
+
+
+
+-----------==================
+R星
+905611180@qq.com
+5215211gG
+
+
+LOL
+---黑色玫瑰 
+3623545349
+fuzhou0213
+
+github
+905611180@qq.com
+5215211g!
+
+阿里云网盘
+13121210762
+hjtsj666
+
+
+linux密码：5215211g
+
+拳头账号：h905611180 5215211q
+换肤 h905611180 905611180 1111
+
+胡闹厨房 jkwf67164 zuobiao8735
+
+大鹅模拟器 kwds42621 zuobiao23489
+
+RX 5215211gG
+
+steam
+xiaowandou1234567
+5215211g!
+
+vm_ware—Broadcom
+humengyuan997@gmail.com
+5215211gG！
+
